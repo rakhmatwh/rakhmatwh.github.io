@@ -23,6 +23,10 @@
     <loc>http://192.168.201.22:1313/tags/</loc>
     <lastmod>2025-12-17T18:08:57+07:00</lastmod>
   </url><url>
+    <loc>http://192.168.201.22:1313/archives/</loc>
+  </url><url>
     <loc>http://192.168.201.22:1313/categories/</loc>
+  </url><url>
+    <loc>http://192.168.201.22:1313/search/</loc>
   </url>
 </urlset>

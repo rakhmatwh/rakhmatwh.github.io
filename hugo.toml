@@ -14,3 +14,20 @@ theme = "PaperMod"
 [[params.profileMode.buttons]]
     name = "Baca Tulisan Saya"
     url = "posts"
+
+# --- Pengaturan Output untuk Search (Wajib untuk PaperMod) ---
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+# --- Pengaturan Menu Navigasi ---
+[[menu.main]]
+    identifier = "archives"
+    name = "Arsip"
+    url = "/archives/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "search"
+    name = "Cari"
+    url = "/search/"
+    weight = 20
