@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Cathetanku'
+theme = "PaperMod"
+
+[params.profileMode]
+  enabled = true
+  title = "Halo, Saya Rakhmat"
+  subtitle = "Selamat datang di blog catatan saya"
+  imageUrl = "me.png"
+  imageWidth = 260
+  imageHeight = 220
+  
+[[params.profileMode.buttons]]
+    name = "Baca Tulisan Saya"
+    url = "posts"
