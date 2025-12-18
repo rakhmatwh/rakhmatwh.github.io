@@ -4,6 +4,12 @@ languageCode = 'en-us'
 title = 'Cathetanku'
 theme = "PaperMod"
 
+[params.assets]
+    favicon = "me.jpg"       # Pastikan nama filenya sama dengan yang di folder static
+    favicon16x16 = "me.png"
+    favicon32x32 = "me.png"
+    apple_touch_icon = "me.png"
+
 [params.profileMode]
   enabled = true
   title = "Halo, Saya Rakhmat"
@@ -11,6 +17,18 @@ theme = "PaperMod"
   imageUrl = "me.png"
   imageWidth = 260
   imageHeight = 220
+  
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/rakhmatwh"
+
+#[[params.socialIcons]]
+#    name = "linkedin"
+#    url = "https://linkedin.com/in/username-anda"  # Ganti dengan link LinkedIn asli jika ada
+
+[[params.socialIcons]]
+    name = "email"
+    url = "mailto:rakhmatwh@gmail.com"
   
 [[params.profileMode.buttons]]
     name = "Baca Tulisan Saya"
