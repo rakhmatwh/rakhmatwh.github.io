@@ -2,7 +2,7 @@
 date = '2025-12-17T18:08:57+07:00'
 draft = false
 title = 'Dunia Fixed Gear: Sejarah, Kultur, dan Adrenalin'
-tags = ["Hobi", "Sepeda", "Lifestyle"]
+tags = ["Hobi", "Culture", "Sepeda", "Lifestyle", "Fixie"]
 +++
 
 Sepeda **Fixed Gear**, atau yang lebih akrab disebut **Fixie**, bukan sekadar alat transportasi. Bagi banyak orang, ini adalah gaya hidup, bentuk ekspresi diri, dan cara menikmati jalanan kota dengan perspektif berbeda.

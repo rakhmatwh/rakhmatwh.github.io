@@ -4,6 +4,42 @@ languageCode = 'en-us'
 title = 'Cathetanku'
 theme = "PaperMod"
 
+# Syntax Highlighting
+[markup.highlight]
+    style = "dracula"
+    lineNos = true
+    lineNumbersInTable = true
+
+[pagination]
+pagerSize = 5
+
+[params]
+mainSections = ["posts"]
+ShowPageNums = true
+ShowBreadCrumbs = true
+
+# Fitur Tambahan (ToC, Share, dll)
+ShowToc = true
+TocOpen = true
+ShowShareButtons = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+comments = false # Aktifkan jika sudah punya Giscus/Disqus
+
+[params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+    [params.fuseOpts]
+        isCaseSensitive = false
+        shouldSort = true
+        location = 0
+        distance = 1000
+        threshold = 0.4
+        minMatchCharLength = 0
+        keys = ["title", "permalink", "summary", "content"]
+
 [params.assets]
     favicon = "me.jpg"       # Pastikan nama filenya sama dengan yang di folder static
     favicon16x16 = "me.png"
@@ -11,28 +47,32 @@ theme = "PaperMod"
     apple_touch_icon = "me.png"
 
 [params.profileMode]
-  enabled = true
+  enabled = false
   title = "Halo, Saya Rakhmat"
   subtitle = "Selamat datang di blog catatan saya"
   imageUrl = "me.png"
   imageWidth = 260
   imageHeight = 220
   
-[[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/rakhmatwh"
+ [params.homeInfoParams]
+    Title = "Hai..., Selamat datang 👋"
+    Content = "Sebuah blog pribadi yang berbagi pemikiran tentang hobi, teknologi, dan kehidupan. Hubungi saya di [rakhmatwh@gmail.com](mailto:rakhmatwh@gmail.com)!"
+	
+#[[params.socialIcons]]
+#    name = "email"
+#    url = "mailto:rakhmatwh@gmail.com"
+
+#[[params.socialIcons]]
+#    name = "github"
+#    url = "https://github.com/rakhmatwh"
 
 #[[params.socialIcons]]
 #    name = "linkedin"
-#    url = "https://linkedin.com/in/username-anda"  # Ganti dengan link LinkedIn asli jika ada
-
-[[params.socialIcons]]
-    name = "email"
-    url = "mailto:rakhmatwh@gmail.com"
+#    url = "https://linkedin.com/in/rakhmatwh"
   
-[[params.profileMode.buttons]]
-    name = "Baca Tulisan Saya"
-    url = "posts"
+#[[params.profileMode.buttons]]
+#    name = "Baca Tulisan Saya"
+#   url = "posts"
 
 # --- Pengaturan Output untuk Search (Wajib untuk PaperMod) ---
 [outputs]
@@ -40,13 +80,27 @@ theme = "PaperMod"
 
 # --- Pengaturan Menu Navigasi ---
 [[menu.main]]
-    identifier = "archives"
-    name = "Arsip"
-    url = "/archives/"
+    name = "Home"
+    url = "/"
+    weight = 5
+
+[[menu.main]]
+    name = "Search"
+    url = "/search/"
     weight = 10
 
 [[menu.main]]
-    identifier = "search"
-    name = "Cari"
-    url = "/search/"
+    name = "Archive"
+    url = "/archives/"
+    weight = 15
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
     weight = 20
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 25
+

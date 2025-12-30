@@ -1,18 +1,235 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Cathetanku</title>
-    <link>http://192.168.201.22:1313/posts/</link>
-    <description>Recent content in Posts on Cathetanku</description>
+    <title>Semua Artikel on Cathetanku</title>
+    <link>http://192.168.6.226:1313/posts/</link>
+    <description>Recent content in Semua Artikel on Cathetanku</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Dec 2025 18:08:57 +0700</lastBuildDate>
-    <atom:link href="http://192.168.201.22:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 2025 02:00:00 +0700</lastBuildDate>
+    <atom:link href="http://192.168.6.226:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perawatan Rantai Sepeda Fixie: Panduan Lengkap</title>
+      <link>http://192.168.6.226:1313/posts/perawatan-rantai-fixie/</link>
+      <pubDate>Mon, 29 Dec 2025 09:30:00 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/perawatan-rantai-fixie/</guid>
+      <description>&lt;p&gt;Rantai adalah komponen krusial pada sepeda fixie. Karena tidak ada derailleur dan rantai terhubung langsung dengan roda, perawatan rantai menjadi sangat penting untuk performa optimal.&lt;/p&gt;
+&lt;h2 id=&#34;mengapa-perawatan-rantai-penting&#34;&gt;Mengapa Perawatan Rantai Penting?&lt;/h2&gt;
+&lt;p&gt;Rantai yang terawat akan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Perpindahan tenaga lebih efisien&lt;/li&gt;
+&lt;li&gt;Umur komponen drivetrain lebih panjang&lt;/li&gt;
+&lt;li&gt;Pengalaman berkendara lebih smooth&lt;/li&gt;
+&lt;li&gt;Mengurangi noise saat mengayuh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;frekuensi-pembersihan&#34;&gt;Frekuensi Pembersihan&lt;/h2&gt;
+&lt;p&gt;Bergantung pada kondisi berkendara:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cuaca kering:&lt;/strong&gt; Setiap 200-300 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kondisi hujan/basah:&lt;/strong&gt; Setiap 100 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Setelah hujan:&lt;/strong&gt; Segera bersihkan dan lumasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cara-membersihkan-rantai&#34;&gt;Cara Membersihkan Rantai&lt;/h2&gt;
+&lt;h3 id=&#34;alat-yang-dibutuhkan&#34;&gt;Alat yang Dibutuhkan:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kuas bekas atau sikat khusus rantai&lt;/li&gt;
+&lt;li&gt;Lap kain&lt;/li&gt;
+&lt;li&gt;Degreaser (bisa gunakan minyak tanah atau cairan khusus)&lt;/li&gt;
+&lt;li&gt;Chain lube&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;langkah-langkah&#34;&gt;Langkah-langkah:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Semprotkan atau oleskan degreaser ke rantai&lt;/li&gt;
+&lt;li&gt;Sikat sambil memutar pedal perlahan ke belakang&lt;/li&gt;
+&lt;li&gt;Lap dengan kain hingga bersih&lt;/li&gt;
+&lt;li&gt;Keringkan sempurna&lt;/li&gt;
+&lt;li&gt;Teteskan chain lube pada setiap link&lt;/li&gt;
+&lt;li&gt;Putar pedal beberapa kali&lt;/li&gt;
+&lt;li&gt;Lap excess lube yang menetes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;jenis-pelumas-rantai&#34;&gt;Jenis Pelumas Rantai&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wet Lube:&lt;/strong&gt; Untuk kondisi basah/hujan, lebih tahan air tapi mudah kotor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dry Lube:&lt;/strong&gt; Untuk kondisi kering, tidak menarik debu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wax-based:&lt;/strong&gt; Middle ground, clean dan smooth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Pro Tip:&lt;/strong&gt; Jangan over-lube! Excess lube justru menarik kotoran dan membuat rantai cepat kotor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tips Memilih Frame Sepeda Fixie yang Tepat</title>
+      <link>http://192.168.6.226:1313/posts/tips-memilih-frame-fixie/</link>
+      <pubDate>Mon, 29 Dec 2025 08:00:00 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/tips-memilih-frame-fixie/</guid>
+      <description>&lt;p&gt;Memilih frame sepeda fixie yang tepat adalah langkah penting dalam membangun sepeda impian Anda. Frame adalah tulang punggung dari sepeda, dan pilihan yang salah bisa membuat pengalaman berkendara menjadi tidak nyaman.&lt;/p&gt;
+&lt;h2 id=&#34;ukuran-frame-yang-sesuai&#34;&gt;Ukuran Frame yang Sesuai&lt;/h2&gt;
+&lt;p&gt;Ukuran frame sangat penting untuk kenyamanan berkendara. Frame yang terlalu besar atau kecil dapat menyebabkan cedera dan pengalaman berkendara yang buruk.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cara mengukur:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Berdiri dengan kaki mengangkang frame&lt;/li&gt;
+&lt;li&gt;Harus ada clearance 2-3 cm antara selangkangan dan top tube&lt;/li&gt;
+&lt;li&gt;Jarak dari sadel ke setang harus proporsional dengan panjang torso Anda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;material-frame&#34;&gt;Material Frame&lt;/h2&gt;
+&lt;p&gt;Ada beberapa pilihan material frame yang populer:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trackstand 101: Teknik Menyeimbangkan Sepeda Fixie Tanpa Kaki di Tanah</title>
+      <link>http://192.168.6.226:1313/posts/trackstand-101/</link>
+      <pubDate>Mon, 29 Dec 2025 17:00:00 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/trackstand-101/</guid>
+      <description>&lt;p&gt;Trackstand adalah salah satu skill paling iconic dalam dunia fixed gear. Kemampuan untuk menyeimbangkan sepeda dalam posisi diam tanpa menaruh kaki di tanah bukan hanya keren dilihat, tapi juga sangat praktis untuk urban riding.&lt;/p&gt;
+&lt;h2 id=&#34;apa-itu-trackstand&#34;&gt;Apa Itu Trackstand?&lt;/h2&gt;
+&lt;p&gt;Trackstand adalah teknik menyeimbangkan sepeda dalam posisi stasioner dengan cara:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mengunci roda di posisi tertentu&lt;/li&gt;
+&lt;li&gt;Memanfaatkan power transfer dari fixed gear&lt;/li&gt;
+&lt;li&gt;Menggunakan keseimbangan tubuh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Teknik ini berasal dari track cycling, di mana pembalap menggunakan taktik ini untuk mendapatkan posisi start terbaik.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setup Footstrap: Kunci Kontrol Sepeda Fixed Gear</title>
+      <link>http://192.168.6.226:1313/posts/setup-footstrap-fixie/</link>
+      <pubDate>Mon, 29 Dec 2025 13:30:00 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/setup-footstrap-fixie/</guid>
+      <description>&lt;p&gt;Foot retention atau footstrap adalah salah satu komponen WAJIB pada sepeda fixed gear. Tanpa footstrap, mengendarai fixie bukan hanya tidak efisien, tapi juga sangat berbahaya.&lt;/p&gt;
+&lt;h2 id=&#34;kenapa-footstrap-penting&#34;&gt;Kenapa Footstrap Penting?&lt;/h2&gt;
+&lt;p&gt;Pada sepeda fixed gear, pedal selalu berputar mengikuti roda. Anda tidak bisa &amp;ldquo;berhenti mengayuh&amp;rdquo; seperti sepeda freewheel biasa. Footstrap memastikan kaki Anda tidak terlempar dari pedal saat:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Descending (turunan cepat)&lt;/li&gt;
+&lt;li&gt;Melakukan skid stop&lt;/li&gt;
+&lt;li&gt;Mengayuh dengan cadence tinggi&lt;/li&gt;
+&lt;li&gt;Melakukan trik seperti wheelie atau fish n chips&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;jenis-jenis-foot-retention&#34;&gt;Jenis-Jenis Foot Retention&lt;/h2&gt;
+&lt;h3 id=&#34;1-toe-clips--straps&#34;&gt;1. Toe Clips + Straps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kelebihan:&lt;/strong&gt; Murah, mudah dipasang, bisa pakai sepatu biasa&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kekurangan:&lt;/strong&gt; Agak ribet untuk masuk/keluar, kurang secure dibanding clipless&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cocok untuk:&lt;/strong&gt; Pemula dan commuter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-clipless-pedal--cleat&#34;&gt;2. Clipless Pedal + Cleat&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kelebihan:&lt;/strong&gt; Sangat secure, power transfer maksimal, cepat release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kekurangan:&lt;/strong&gt; Butuh sepatu khusus, mahal, learning curve untuk click in/out&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cocok untuk:&lt;/strong&gt; Advanced rider dan racing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-nylonleather-straps&#34;&gt;3. Nylon/Leather Straps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kelebihan:&lt;/strong&gt; Gampang DIY, bisa custom warna, murah&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kekurangan:&lt;/strong&gt; Perlu adjust tension sebelum riding&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cocok untuk:&lt;/strong&gt; Urban rider yang suka custom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cara-setup-footstrap-yang-benar&#34;&gt;Cara Setup Footstrap yang Benar&lt;/h2&gt;
+&lt;h3 id=&#34;untuk-toe-clips--straps&#34;&gt;Untuk Toe Clips + Straps:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Pasang toe clips di pedal dengan ukuran sesuai sepatu&lt;/li&gt;
+&lt;li&gt;Atur tightness strap: tidak terlalu ketat tapi cukup secure&lt;/li&gt;
+&lt;li&gt;Latihan masuk-keluar dari footstrap saat sepeda diam&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PENTING:&lt;/strong&gt; Longgarkan sedikit saat berhenti di lampu merah&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;untuk-clipless&#34;&gt;Untuk Clipless:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Pasang cleat di sepatu dengan posisi ball of foot tepat di atas pedal axle&lt;/li&gt;
+&lt;li&gt;Atur float cleat (sudut kebebasan kaki)&lt;/li&gt;
+&lt;li&gt;Set tension spring pedal: mulai dari yang paling loose&lt;/li&gt;
+&lt;li&gt;Latihan click in dan out di tempat aman (rumput/parking lot)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;tips-keamanan&#34;&gt;Tips Keamanan&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Jangan pernah riding fixed gear tanpa foot retention&lt;/strong&gt;, ini bunuh diri&lt;/li&gt;
+&lt;li&gt;Practice emergency unclip/release sebelum riding di jalan ramai&lt;/li&gt;
+&lt;li&gt;Untuk pemula, mulai dengan toe clips dulu sebelum upgrade ke clipless&lt;/li&gt;
+&lt;li&gt;Selalu cek kondisi strap sebelum riding (jangan sampai putus di tengah jalan)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stay safe, stay strapped!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fixed Gear 101: Filosofi, Fokus, dan Seni Berkendara Tanpa Rem</title>
+      <link>http://192.168.6.226:1313/posts/fixed-gear-101/</link>
+      <pubDate>Wed, 31 Dec 2025 01:00:00 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/fixed-gear-101/</guid>
+      <description>&lt;p&gt;Bagi banyak orang, melihat sepeda tanpa rem tangan adalah hal yang gila. Namun, bagi para &lt;em&gt;bike messenger&lt;/em&gt; veteran, mengendarai &lt;em&gt;fixed gear&lt;/em&gt; adalah tentang mencapai tingkat fokus tertinggi di jalanan.&lt;/p&gt;
+&lt;p&gt;Berdasarkan literatur klasik &lt;em&gt;Puma Fixed Gear 101&lt;/em&gt;, berikut adalah esensi dari dunia roda mati yang perlu dipahami setiap pemula.&lt;/p&gt;
+&lt;h2 id=&#34;filosofi-satu-blok-di-depan&#34;&gt;Filosofi &amp;ldquo;Satu Blok di Depan&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Salah satu kutipan paling ikonik dari Squid, kapten Team Puma, menjelaskan perbedaan mendasar antara sepeda biasa dan fixie. Saat Anda menggunakan rem, sudut pandang Anda mungkin hanya 5 kaki di depan roda. Namun, saat berkendara tanpa rem (brakeless), sudut pandang Anda dipaksa bergeser menjadi &lt;strong&gt;satu blok di depan&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gear Ratio &amp; Skid Spots: Panduan Teknis Efisiensi dan Keawetan</title>
+      <link>http://192.168.6.226:1313/posts/fixed-gear-ratio/</link>
+      <pubDate>Wed, 31 Dec 2025 02:00:00 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/fixed-gear-ratio/</guid>
+      <description>&lt;p&gt;Dalam dunia sepeda satu percepatan (&lt;em&gt;single speed&lt;/em&gt; atau &lt;em&gt;fixed gear&lt;/em&gt;), tidak ada pemindah gigi yang bisa membantu Anda saat menghadapi tanjakan atau mengejar kecepatan di jalan datar. Oleh karena itu, pemilihan kombinasi gir adalah keputusan paling krusial yang harus diambil oleh seorang pengendara.&lt;/p&gt;
+&lt;p&gt;Dua sumber ternama, &lt;em&gt;Brotures Global&lt;/em&gt; dan &lt;em&gt;Surly Bikes&lt;/em&gt;, memberikan panduan mendalam tentang cara menentukan rasio yang tepat agar sepeda tidak hanya efisien secara mekanis, tetapi juga awet secara komponen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Seni di Atas Roda: Fixie Sebagai Kanvas Subkultur Urban</title>
+      <link>http://192.168.6.226:1313/posts/seni-di-atas-roda/</link>
+      <pubDate>Tue, 30 Dec 2025 18:10:57 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/seni-di-atas-roda/</guid>
+      <description>&lt;p&gt;Di jalanan kota-kota besar Indonesia, di antara deru motor dan mobil, seringkali melintas sepeda ramping dengan warna-warna mencolok, dikendarai oleh anak muda dengan gaya &lt;em&gt;streetwear&lt;/em&gt; yang khas. Itu bukan sekadar alat transportasi; itu adalah pernyataan diri.&lt;/p&gt;
+&lt;p&gt;Fenomena sepeda &lt;em&gt;fixed gear&lt;/em&gt; (fixie) telah melampaui fungsinya sebagai kendaraan. Ia telah bertransformasi menjadi simbol subkultur urban yang memadukan olahraga, seni, dan gaya hidup modern.&lt;/p&gt;
+&lt;h2 id=&#34;kanvas-berjalan-untuk-ekspresi-diri&#34;&gt;Kanvas Berjalan untuk Ekspresi Diri&lt;/h2&gt;
+&lt;p&gt;Salah satu daya tarik utama fixie yang membuatnya kembali populer di era 2020-an adalah sifatnya yang sangat personal. Desainnya yang minimalis?tanpa kabel yang semrawut?menjadikannya kanvas kosong yang sempurna.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mengapa Fixie Adalah &#34;Guru&#34; Terbaik bagi Pesepeda</title>
+      <link>http://192.168.6.226:1313/posts/fixie-guru-terbaik-bagi-pesepeda/</link>
+      <pubDate>Tue, 30 Dec 2025 18:08:57 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/fixie-guru-terbaik-bagi-pesepeda/</guid>
+      <description>&lt;p&gt;Banyak pesepeda pemula merasa terintimidasi melihat sepeda &lt;em&gt;fixed gear&lt;/em&gt; (fixie). Tanpa rem tangan, tanpa gigi untuk dioper, dan pedal yang terus berputar. Terdengar merepotkan, bukan?&lt;/p&gt;
+&lt;p&gt;Namun, justru di balik &amp;ldquo;kerepotan&amp;rdquo; itulah tersimpan rahasia mengapa fixie sering disebut sebagai mesin pelatih terbaik. Jauh dari sekadar tren sesaat, sepeda ini menawarkan manfaat teknis dan fisik yang sulit ditandingi oleh sepeda bergigi banyak (multi-geared bikes).&lt;/p&gt;
+&lt;h2 id=&#34;menyempurnakan-teknik-mengayuh-souplesse&#34;&gt;Menyempurnakan Teknik Mengayuh (&amp;ldquo;Souplesse&amp;rdquo;)&lt;/h2&gt;
+&lt;p&gt;Manfaat terbesar dari mengendarai fixie adalah perbaikan teknik mengayuh. Pada sepeda biasa (freewheel), kita cenderung hanya menekan pedal ke bawah (mendorong) dan membiarkan momentum membawa kaki naik kembali.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Warna dan Estetika: Seni Merakit Fixie yang Eye-Catching</title>
+      <link>http://192.168.6.226:1313/posts/warna-estetika-fixie/</link>
+      <pubDate>Mon, 29 Dec 2025 15:00:00 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/warna-estetika-fixie/</guid>
+      <description>&lt;p&gt;Salah satu daya tarik terbesar dari dunia fixed gear adalah kebebasan untuk berkreasi dengan warna dan estetika. Tidak seperti road bike yang cenderung uniform, fixie adalah kanvas kosong untuk ekspresi diri.&lt;/p&gt;
+&lt;h2 id=&#34;filosofi-less-is-more&#34;&gt;Filosofi &amp;ldquo;Less is More&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Fixie yang cantik bukan soal banyaknya komponen mahal, tapi tentang:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kohesi warna:&lt;/strong&gt; Semua elemen harmonis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clean lines:&lt;/strong&gt; Minim kabel, tampilan rapi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Subtle details:&lt;/strong&gt; Aksen kecil yang meaningful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;skema-warna-populer&#34;&gt;Skema Warna Populer&lt;/h2&gt;
+&lt;h3 id=&#34;1-monochrome&#34;&gt;1. Monochrome&lt;/h3&gt;
+&lt;p&gt;All black atau all white memberikan kesan minimalis dan elegan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Komunitas Fixie Indonesia: Tempat Berkumpul Pecinta Roda Mati</title>
+      <link>http://192.168.6.226:1313/posts/komunitas-fixie-indonesia/</link>
+      <pubDate>Mon, 29 Dec 2025 11:00:00 +0700</pubDate>
+      <guid>http://192.168.6.226:1313/posts/komunitas-fixie-indonesia/</guid>
+      <description>&lt;p&gt;Dunia fixie di Indonesia bukan hanya tentang sepeda, tapi tentang komunitas yang solid dan saling mendukung. Dari Jakarta hingga Bali, komunitas fixie tersebar di berbagai kota dengan karakter uniknya masing-masing.&lt;/p&gt;
+&lt;h2 id=&#34;kenapa-bergabung-dengan-komunitas&#34;&gt;Kenapa Bergabung dengan Komunitas?&lt;/h2&gt;
+&lt;h3 id=&#34;1-knowledge-sharing&#34;&gt;1. Knowledge Sharing&lt;/h3&gt;
+&lt;p&gt;Komunitas adalah tempat terbaik untuk belajar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tips membangun sepeda&lt;/li&gt;
+&lt;li&gt;Rekomendasi toko dan bengkel terpercaya&lt;/li&gt;
+&lt;li&gt;Teknik berkendara yang aman&lt;/li&gt;
+&lt;li&gt;Spot-spot menarik untuk riding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-group-ride&#34;&gt;2. Group Ride&lt;/h3&gt;
+&lt;p&gt;Bersepeda bersama lebih menyenangkan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Night ride di jalanan kota&lt;/li&gt;
+&lt;li&gt;Sunday morning ride&lt;/li&gt;
+&lt;li&gt;Long distance touring&lt;/li&gt;
+&lt;li&gt;Track day di velodrome&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-networking&#34;&gt;3. Networking&lt;/h3&gt;
+&lt;p&gt;Bertemu dengan orang-orang yang sefrekuensi:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dunia Fixed Gear: Sejarah, Kultur, dan Adrenalin</title>
-      <link>http://192.168.201.22:1313/posts/sejarah-fixie/</link>
+      <link>http://192.168.6.226:1313/posts/sejarah-fixie/</link>
       <pubDate>Wed, 17 Dec 2025 18:08:57 +0700</pubDate>
-      <guid>http://192.168.201.22:1313/posts/sejarah-fixie/</guid>
+      <guid>http://192.168.6.226:1313/posts/sejarah-fixie/</guid>
       <description>&lt;p&gt;Sepeda &lt;strong&gt;Fixed Gear&lt;/strong&gt;, atau yang lebih akrab disebut &lt;strong&gt;Fixie&lt;/strong&gt;, bukan sekadar alat transportasi. Bagi banyak orang, ini adalah gaya hidup, bentuk ekspresi diri, dan cara menikmati jalanan kota dengan perspektif berbeda.&lt;/p&gt;
 &lt;p&gt;Tapi, apa sebenarnya yang membuat sepeda minimalis ini begitu istimewa?&lt;/p&gt;
 &lt;h2 id=&#34;apa-itu-sepeda-fixie&#34;&gt;Apa Itu Sepeda Fixie?&lt;/h2&gt;

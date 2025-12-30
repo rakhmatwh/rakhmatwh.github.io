@@ -1,0 +1,67 @@
+.home-info .entry-content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--primary); /* Menyamakan warna dengan judul */
+}
+
+.home-info .entry-content a {
+    text-decoration: underline; /* Memberi garis bawah pada email */
+    color: inherit; /* Agar warnanya tetap sama dengan teks sekitarnya */
+}
+
+.main-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Tambahkan baris ini */
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.tag-button {
+    background: var(--code-bg); /* Mengikuti warna tema (gelap/terang) */
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 5px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--secondary);
+    transition: all 0.2s ease;
+}
+
+.tag-button:hover {
+    background: var(--tertiary);
+    color: var(--primary);
+    transform: translateY(-2px); /* Efek sedikit melompat saat diarahkan kursor */
+}
+
+.tag-button sup {
+    font-size: 10px;
+    margin-left: 4px;
+    opacity: 0.7;
+}
+
+/* Gaya untuk Mode Terang (Default) */
+.tag-button {
+    background: #f1f1f1; /* Abu-abu muda yang lebih solid */
+    color: #222;        /* Teks hampir hitam agar kontras maksimal */
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    padding: 5px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+/* Gaya Khusus untuk Mode Gelap (Menggunakan selektor .dark) */
+.dark .tag-button {
+    background: var(--code-bg);
+    color: var(--secondary);
+    border: 1px solid var(--border);
+}
+
+/* Efek Hover (Berlaku di kedua mode) */
+.tag-button:hover {
+    background: var(--tertiary);
+    color: var(--primary);
+    transform: translateY(-2px);
+}

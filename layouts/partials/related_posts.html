@@ -1,0 +1,33 @@
+{{- $related := slice }}
+{{- $tags := .GetTerms "tags" }}
+{{- $currentURL := .Permalink }}
+
+{{- if $tags }}
+    {{- range $tags }}
+        {{- range .Pages }}
+            {{- if ne .Permalink $currentURL }}
+                {{- $related = $related | append . }}
+            {{- end }}
+        {{- end }}
+    {{- end }}
+{{- end }}
+
+{{- $related = $related | uniq | first 3 }}
+
+{{- if $related }}
+<div class="related-posts">
+    <h3 style="margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1px solid var(--tertiary); padding-bottom: 0.5rem;">
+        📚 Artikel Terkait
+    </h3>
+    <ul style="list-style: none; padding: 0;">
+        {{- range $related }}
+        <li style="margin-bottom: 0.8rem;">
+            <a href="{{ .Permalink }}" style="display: flex; align-items: center; gap: 0.5rem;">
+                <span style="color: var(--secondary);">→</span>
+                <span>{{ .Title }}</span>
+            </a>
+        </li>
+        {{- end }}
+    </ul>
+</div>
+{{- end }}
