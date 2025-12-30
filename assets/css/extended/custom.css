@@ -1,67 +1,276 @@
+/* =============================================
+   EYE-FRIENDLY COLOR SCHEME
+   Softer colors that reduce eye strain
+   ============================================= */
+
+/* Light Mode - Warm & Soft */
+:root {
+  --theme: #faf8f5; /* Warm off-white background */
+  --entry: #ffffff; /* Pure white for cards */
+  --primary: #2d3436; /* Soft dark gray for headings */
+  --secondary: #636e72; /* Muted gray for secondary text */
+  --tertiary: #e8e4df; /* Warm light gray for borders */
+  --content: #4a4a4a; /* Comfortable reading gray */
+  --code-block-bg: #f5f2ed; /* Warm code background */
+  --code-bg: #ebe7e1; /* Inline code background */
+  --border: #e0dcd6; /* Subtle warm border */
+  --hljs-bg: #f5f2ed; /* Syntax highlight bg */
+}
+
+/* Dark Mode - Cozy & Easy on Eyes */
+[data-theme="dark"] {
+  --theme: #1a1d21; /* Not pure black, slight warmth */
+  --entry: #22262b; /* Slightly lighter for cards */
+  --primary: #e8e6e3; /* Warm white, not harsh */
+  --secondary: #a8a29e; /* Muted warm gray */
+  --tertiary: #3d4147; /* Subtle gray for accents */
+  --content: #d4d0cc; /* Easy reading warm gray */
+  --code-block-bg: #282c34; /* Classic dark code bg */
+  --code-bg: #2d3139; /* Inline code bg */
+  --border: #3a3f46; /* Subtle dark border */
+  --hljs-bg: #282c34;
+}
+
+/* Typography Improvements */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.7;
+}
+
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--content);
+}
+
+/* Smoother Links */
+a {
+  color: #0077b6;
+  transition: color 0.2s ease;
+}
+
+[data-theme="dark"] a {
+  color: #64b5f6;
+}
+
+a:hover {
+  color: #00a8e8;
+}
+
+[data-theme="dark"] a:hover {
+  color: #90caf9;
+}
+
+/* Better Code Blocks */
+pre {
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid var(--border);
+}
+
+code {
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
+}
+
+/* Softer Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.post-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Better Blockquotes */
+blockquote {
+  border-left: 3px solid #0077b6;
+  background: var(--code-block-bg);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+}
+
+[data-theme="dark"] blockquote {
+  border-left-color: #64b5f6;
+}
+
+/* Smooth Cards/Entries */
+.post-entry {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] .post-entry:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Better Focus States */
+a:focus,
+button:focus {
+  outline: 2px solid #0077b6;
+  outline-offset: 2px;
+}
+
+[data-theme="dark"] a:focus,
+[data-theme="dark"] button:focus {
+  outline-color: #64b5f6;
+}
+
+/* Smooth Page Transitions */
+.main {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =============================================
+   EXISTING CUSTOM STYLES (TAG BUTTONS, ETC)
+   ============================================= */
+
 .home-info .entry-content {
-    font-size: 18px;
-    line-height: 1.6;
-    color: var(--primary); /* Menyamakan warna dengan judul */
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--primary);
 }
 
 .home-info .entry-content a {
-    text-decoration: underline; /* Memberi garis bawah pada email */
-    color: inherit; /* Agar warnanya tetap sama dengan teks sekitarnya */
+  text-decoration: underline;
+  color: inherit;
 }
 
 .main-tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Tambahkan baris ini */
-    gap: 10px;
-    margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .tag-button {
-    background: var(--code-bg); /* Mengikuti warna tema (gelap/terang) */
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 5px 12px;
-    font-size: 16px;
-    text-decoration: none;
-    color: var(--secondary);
-    transition: all 0.2s ease;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 5px 12px;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--secondary);
+  transition: all 0.2s ease;
 }
 
 .tag-button:hover {
-    background: var(--tertiary);
-    color: var(--primary);
-    transform: translateY(-2px); /* Efek sedikit melompat saat diarahkan kursor */
+  background: var(--tertiary);
+  color: var(--primary);
+  transform: translateY(-2px);
 }
 
 .tag-button sup {
-    font-size: 10px;
-    margin-left: 4px;
-    opacity: 0.7;
+  font-size: 10px;
+  margin-left: 4px;
+  opacity: 0.7;
 }
 
-/* Gaya untuk Mode Terang (Default) */
-.tag-button {
-    background: #f1f1f1; /* Abu-abu muda yang lebih solid */
-    color: #222;        /* Teks hampir hitam agar kontras maksimal */
-    border: 1px solid #d1d1d1;
+/* =============================================
+   PAGINATION & VIEW ALL POSTS STYLING
+   ============================================= */
+
+/* Pagination container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+/* Pagination links (prev/next & View All Posts) */
+.pagination a,
+.page-footer a {
+    background: var(--code-bg);
+    color: var(--primary);
+    padding: 0.6rem 1.2rem;
     border-radius: 8px;
-    padding: 5px 12px;
-    font-size: 16px;
+    border: 1px solid var(--border);
     text-decoration: none;
     transition: all 0.2s ease;
+    font-weight: 600;
 }
 
-/* Gaya Khusus untuk Mode Gelap (Menggunakan selektor .dark) */
-.dark .tag-button {
-    background: var(--code-bg);
-    color: var(--secondary);
-    border: 1px solid var(--border);
-}
-
-/* Efek Hover (Berlaku di kedua mode) */
-.tag-button:hover {
+.pagination a:hover,
+.page-footer a:hover {
     background: var(--tertiary);
-    color: var(--primary);
     transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+[data-theme="dark"] .pagination a:hover,
+[data-theme="dark"] .page-footer a:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* =============================================
+   TAG LIST STYLING (HOME PAGE)
+   ============================================= */
+
+/* Light Mode - Softer tags */
+.tag-button {
+    background: #f0ebe5 !important;
+    color: #4a4a4a !important;
+    border: 1px solid #ddd6ce !important;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-weight: 600;
+}
+
+.tag-button:hover {
+    background: #e5dfd8 !important;
+    color: #2d3436 !important;
+    transform: translateY(-2px);
+}
+
+/* Dark Mode - Cozy tags */
+[data-theme="dark"] .tag-button {
+    background: #2d3139 !important;
+    color: #b8b4af !important;
+    border: 1px solid #3d4147 !important;
+}
+
+[data-theme="dark"] .tag-button:hover {
+    background: #3d4147 !important;
+    color: #e8e6e3 !important;
+}
+
+/* Tag count styling */
+.tag-button sup {
+    font-size: 10px;
+    margin-left: 4px;
+    opacity: 0.6;
+    font-weight: 400;
 }

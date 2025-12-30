@@ -6,52 +6,52 @@ title = 'Setup Footstrap: Kunci Kontrol Sepeda Fixed Gear'
 tags = ["Safety", "Fixie", "Gear", "Tips"]
 +++
 
-Foot retention atau footstrap adalah salah satu komponen WAJIB pada sepeda fixed gear. Tanpa footstrap, mengendarai fixie bukan hanya tidak efisien, tapi juga sangat berbahaya.
+Foot retention alias footstrap itu salah satu komponen WAJIB di sepeda fixed gear. Tanpa footstrap, gowes fixie bukan cuma gak efisien, tapi juga berbahaya banget.
 
-## Kenapa Footstrap Penting?
+## Kenapa Footstrap Penting Banget?
 
-Pada sepeda fixed gear, pedal selalu berputar mengikuti roda. Anda tidak bisa "berhenti mengayuh" seperti sepeda freewheel biasa. Footstrap memastikan kaki Anda tidak terlempar dari pedal saat:
-- Descending (turunan cepat)
-- Melakukan skid stop
-- Mengayuh dengan cadence tinggi
-- Melakukan trik seperti wheelie atau fish n chips
+Di sepeda fixed gear, pedal selalu muter ngikutin roda. Lo gak bisa "berhenti ngayuh" kayak sepeda freewheel biasa. Footstrap mastiin kaki lo gak kelempar dari pedal pas:
+- Descending (turunan cepet)
+- Ngelakuin skid stop
+- Ngayuh dengan cadence tinggi
+- Ngelakuin trik kayak wheelie atau fish n chips
 
 ## Jenis-Jenis Foot Retention
 
 ### 1. Toe Clips + Straps
-- **Kelebihan:** Murah, mudah dipasang, bisa pakai sepatu biasa
-- **Kekurangan:** Agak ribet untuk masuk/keluar, kurang secure dibanding clipless
-- **Cocok untuk:** Pemula dan commuter
+- **Plus:** Murah, gampang dipasang, bisa pake sepatu biasa
+- **Minus:** Agak ribet buat masuk/keluar, kurang secure dibanding clipless
+- **Cocok buat:** Pemula dan commuter
 
 ### 2. Clipless Pedal + Cleat
-- **Kelebihan:** Sangat secure, power transfer maksimal, cepat release
-- **Kekurangan:** Butuh sepatu khusus, mahal, learning curve untuk click in/out
-- **Cocok untuk:** Advanced rider dan racing
+- **Plus:** Super secure, power transfer maksimal, cepet release
+- **Minus:** Butuh sepatu khusus, mahal, ada learning curve buat click in/out
+- **Cocok buat:** Advanced rider dan racing
 
 ### 3. Nylon/Leather Straps
-- **Kelebihan:** Gampang DIY, bisa custom warna, murah
-- **Kekurangan:** Perlu adjust tension sebelum riding
-- **Cocok untuk:** Urban rider yang suka custom
+- **Plus:** Gampang DIY, bisa custom warna, murah
+- **Minus:** Perlu adjust tension sebelum riding
+- **Cocok buat:** Urban rider yang suka custom
 
-## Cara Setup Footstrap yang Benar
+## Cara Setup Footstrap yang Bener
 
-### Untuk Toe Clips + Straps:
-1. Pasang toe clips di pedal dengan ukuran sesuai sepatu
-2. Atur tightness strap: tidak terlalu ketat tapi cukup secure
-3. Latihan masuk-keluar dari footstrap saat sepeda diam
-4. **PENTING:** Longgarkan sedikit saat berhenti di lampu merah
+### Buat Toe Clips + Straps:
+1. Pasang toe clips di pedal dengan ukuran pas sama sepatu
+2. Atur tightness strap: jangan ketat-ketat amat tapi cukup secure
+3. Latian masuk-keluar dari footstrap pas sepeda diem
+4. **PENTING:** Longarin dikit pas berhenti di lampu merah
 
-### Untuk Clipless:
-1. Pasang cleat di sepatu dengan posisi ball of foot tepat di atas pedal axle
+### Buat Clipless:
+1. Pasang cleat di sepatu dengan posisi ball of foot pas di atas pedal axle
 2. Atur float cleat (sudut kebebasan kaki)
 3. Set tension spring pedal: mulai dari yang paling loose
-4. Latihan click in dan out di tempat aman (rumput/parking lot)
+4. Latian click in dan out di tempat aman (rumput/parkiran)
 
 ## Tips Keamanan
 
-- **Jangan pernah riding fixed gear tanpa foot retention**, ini bunuh diri
-- Practice emergency unclip/release sebelum riding di jalan ramai
-- Untuk pemula, mulai dengan toe clips dulu sebelum upgrade ke clipless
-- Selalu cek kondisi strap sebelum riding (jangan sampai putus di tengah jalan)
+- **Jangan pernah gowes fixed gear tanpa foot retention** — ini bunuh diri
+- Latian emergency unclip/release sebelum riding di jalan rame
+- Buat pemula, mulai pake toe clips dulu sebelum upgrade ke clipless
+- Selalu cek kondisi strap sebelum riding (jangan sampe putus di tengah jalan)
 
-Stay safe, stay strapped!
+Stay safe, stay strapped! 🚲
