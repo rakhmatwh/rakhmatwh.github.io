@@ -274,3 +274,132 @@ button:focus {
     opacity: 0.6;
     font-weight: 400;
 }
+
+/* =============================================
+   CUSDIS COMMENT SYSTEM STYLING
+   Aesthetic design with themed border
+   ============================================= */
+
+/* Comment section wrapper */
+.comments-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+}
+
+/* Comment section header */
+.comments-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(90deg, #0077b6, #00a8e8, transparent) 1;
+}
+
+[data-theme="dark"] .comments-header {
+    border-image: linear-gradient(90deg, #64b5f6, #90caf9, transparent) 1;
+}
+
+.comments-header svg {
+    width: 24px;
+    height: 24px;
+    color: #0077b6;
+    flex-shrink: 0;
+}
+
+[data-theme="dark"] .comments-header svg {
+    color: #64b5f6;
+}
+
+.comments-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary);
+    letter-spacing: -0.01em;
+}
+
+.comments-header span {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    font-weight: 400;
+}
+
+/* Cusdis container with subtle card effect */
+.comments-container {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.2s ease;
+}
+
+[data-theme="dark"] .comments-container {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.comments-container:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] .comments-container:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Cusdis thread styling */
+#cusdis_thread {
+    width: 100%;
+}
+
+/* Make iframe seamless */
+#cusdis_thread iframe {
+    width: 100%;
+    border: none !important;
+    background: transparent !important;
+    border-radius: 8px;
+}
+
+/* Powered by link styling */
+.comments-footer {
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed var(--border);
+    text-align: center;
+}
+
+.comments-footer a {
+    font-size: 0.75rem;
+    color: var(--secondary);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+
+.comments-footer a:hover {
+    opacity: 1;
+    color: #0077b6;
+}
+
+[data-theme="dark"] .comments-footer a:hover {
+    color: #64b5f6;
+}
+
+/* Responsive adjustment */
+@media screen and (max-width: 768px) {
+    .comments-section {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+    }
+    
+    .comments-container {
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    
+    .comments-header h3 {
+        font-size: 1.1rem;
+    }
+}

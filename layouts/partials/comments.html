@@ -1,0 +1,99 @@
+{{- /* Comments area start */ -}}
+{{- if .Site.Params.cusdis.appId -}}
+<section class="comments-section">
+  <!-- Comment Section Header -->
+  <div class="comments-header">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
+    <h3>Komentar</h3>
+    <span>— Bagikan pendapatmu</span>
+  </div>
+  
+  <!-- Comment Container -->
+  <div class="comments-container">
+    <div id="cusdis_thread"
+      data-host="https://cusdis.com"
+      data-app-id="{{ .Site.Params.cusdis.appId }}"
+      data-page-id="{{ .File.UniqueID }}"
+      data-page-url="{{ .Permalink }}"
+      data-page-title="{{ .Title }}"
+      {{- if .Site.Params.cusdis.lang }}
+      data-lang="{{ .Site.Params.cusdis.lang }}"
+      {{- end }}
+    ></div>
+  </div>
+</section>
+
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<script>
+(function() {
+  // Get current theme from PaperMod (html element's data-theme attribute)
+  function getCurrentTheme() {
+    return document.documentElement.getAttribute('data-theme') || 'light';
+  }
+
+  // Set Cusdis theme using the official CUSDIS.setTheme API
+  function setCusdisTheme(theme) {
+    // Use CUSDIS global object if available
+    if (window.CUSDIS && typeof window.CUSDIS.setTheme === 'function') {
+      window.CUSDIS.setTheme(theme);
+    }
+    // Also try postMessage to iframe as fallback
+    const iframe = document.querySelector('#cusdis_thread iframe');
+    if (iframe && iframe.contentWindow) {
+      iframe.contentWindow.postMessage(JSON.stringify({
+        from: 'cusdis',
+        event: 'setTheme',
+        data: theme
+      }), '*');
+    }
+  }
+
+  // Initial theme set after Cusdis loads
+  function initCusdisTheme() {
+    const theme = getCurrentTheme();
+    // Update the data-theme attribute on cusdis div
+    const cusdisDiv = document.getElementById('cusdis_thread');
+    if (cusdisDiv) {
+      cusdisDiv.setAttribute('data-theme', theme);
+    }
+    // Wait a bit for iframe to be ready
+    setTimeout(function() {
+      setCusdisTheme(theme);
+    }, 1000);
+  }
+
+  // Watch for theme changes on <html> element
+  const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.attributeName === 'data-theme') {
+        const theme = getCurrentTheme();
+        setCusdisTheme(theme);
+      }
+    });
+  });
+
+  // Start observing after DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      observer.observe(document.documentElement, { attributes: true });
+      initCusdisTheme();
+    });
+  } else {
+    observer.observe(document.documentElement, { attributes: true });
+    initCusdisTheme();
+  }
+
+  // Also set theme when window fully loads (iframe should be ready)
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      setCusdisTheme(getCurrentTheme());
+    }, 500);
+  });
+})();
+</script>
+{{- end -}}
+{{- /* Comments area end */ -}}
+
+

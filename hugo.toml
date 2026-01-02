@@ -26,7 +26,13 @@ TocOpen = true
 ShowShareButtons = true
 ShowReadingTime = true
 ShowPostNavLinks = true
-comments = false # Aktifkan jika sudah punya Giscus/Disqus
+comments = true # Aktifkan untuk menampilkan Cusdis
+
+# Cusdis Comment System
+[params.cusdis]
+    appId = "d91ec0a0-0db2-4785-8acf-2114008ace18" # Ganti dengan App ID dari dashboard Cusdis
+    lang = "id" # Bahasa komentar: id, en, dll
+    theme = "auto" # auto: mengikuti tema website (light/dark)
 
 [params.cover]
     hidden = false
