@@ -3,7 +3,7 @@ date = '2025-12-29T13:30:00+07:00'
 draft = false
 weight = 40
 title = 'Setup Footstrap: Kunci Kontrol Sepeda Fixed Gear'
-tags = ["Safety", "Fixie", "Gear", "Tips"]
+tags = ["Safety", "Fixie", "Tips"]
 +++
 
 Foot retention alias footstrap itu salah satu komponen WAJIB di sepeda fixed gear. Tanpa footstrap, gowes fixie bukan cuma gak efisien, tapi juga berbahaya banget.

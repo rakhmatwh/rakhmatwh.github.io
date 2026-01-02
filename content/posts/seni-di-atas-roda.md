@@ -2,7 +2,7 @@
 date = '2025-12-30T18:10:57+07:00'
 draft = false
 title = 'Seni di Atas Roda: Fixie Sebagai Kanvas Subkultur Urban'
-tags = ["Lifestyle", "Culture", "Seni", "Fixie", "Komunitas", "Hobi"]
+tags = ["Lifestyle", "Culture", "Fixie", "Komunitas"]
 +++
 
 Di jalanan kota-kota besar Indonesia, di antara deru motor dan mobil, sering melintas sepeda ramping dengan warna-warna nyolok, dikendarain anak muda dengan gaya *streetwear* yang khas. Itu bukan sekadar alat transportasi; itu pernyataan diri, bro.
