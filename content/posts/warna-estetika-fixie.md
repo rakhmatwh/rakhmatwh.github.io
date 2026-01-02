@@ -2,7 +2,7 @@
 date = '2025-12-29T15:00:00+07:00'
 draft = false
 title = 'Warna dan Estetika: Seni Merakit Fixie yang Eye-Catching'
-tags = ["Seni", "Fixie", "Custom", "Culture"]
+tags = ["Fixie", "Custom", "Culture"]
 +++
 
 Salah satu daya tarik terbesar dari dunia fixed gear itu kebebasan buat berkreasi sama warna dan estetika. Beda sama road bike yang cenderung uniform, fixie itu kanvas kosong buat ekspresi diri.

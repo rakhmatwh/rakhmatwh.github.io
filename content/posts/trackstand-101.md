@@ -3,7 +3,7 @@ date = '2025-12-29T17:00:00+07:00'
 draft = false
 weight = 30
 title = 'Trackstand 101: Teknik Menyeimbangkan Sepeda Fixie Tanpa Kaki di Tanah'
-tags = ["Teknik Sepeda", "Fixie", "Skills", "Tips"]
+tags = ["Teknik Sepeda", "Fixie", "Skills"]
 +++
 
 Trackstand itu salah satu skill paling iconic di dunia fixed gear. Kemampuan buat balance sepeda dalam posisi diem tanpa nurunin kaki ke tanah bukan cuma keren diliat, tapi juga super praktis buat urban riding.

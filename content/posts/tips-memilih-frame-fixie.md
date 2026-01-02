@@ -3,7 +3,7 @@ date = '2025-12-29T08:00:00+07:00'
 draft = false
 weight = 20
 title = 'Tips Memilih Frame Sepeda Fixie yang Tepat'
-tags = ["Sepeda", "Fixie", "Tips", "Gear"]
+tags = ["Sepeda", "Fixie", "Tips"]
 +++
 
 Milih frame sepeda fixie yang tepat itu langkah penting banget buat bangun sepeda impian lo. Frame itu tulang punggung sepeda, dan pilihan yang salah bisa bikin pengalaman gowes jadi gak nyaman.

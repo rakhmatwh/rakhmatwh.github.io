@@ -2,7 +2,7 @@
 date = '2025-12-29T11:00:00+07:00'
 draft = false
 title = 'Komunitas Fixie Indonesia: Tempat Berkumpul Pecinta Roda Mati'
-tags = ["Komunitas", "Fixie", "Culture", "Indonesia"]
+tags = ["Komunitas", "Hobi", "Fixie", "Culture", "Indonesia"]
 +++
 
 Dunia fixie di Indonesia bukan cuma soal sepeda, tapi soal komunitas yang solid dan saling support. Dari Jakarta sampe Bali, komunitas fixie tersebar di berbagai kota dengan karakter unik masing-masing.
