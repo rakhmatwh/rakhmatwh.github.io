@@ -1,4 +1,5 @@
-baseURL = "https://rakhmatwh-github-io.pages.dev/"
+baseURL = "https://rakhmatwh.my.id/"
+#baseURL = "https://rakhmatwh-github-io.pages.dev/"
 #baseURL = "https://rakhmatwh.github.io/"
 #baseURL = 'https://example.org/'
 languageCode = 'en-us'
